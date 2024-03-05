@@ -11,7 +11,7 @@
 </div>
 
 <hr>
-<p align = "center"> Trata-se de uma página web de um banco digiral. O foco é trazer a experiência de uma criação de conta em um banco, passando por 2 etapas, cadastro de formulário e depois um cadastro fácial. Ambos os tipos de dados são alocados em um banco de dados local no navegador do usuário (localStorage). 
+<p align = "center"> Trata-se de uma página web de um banco digiral. O foco é trazer a experiência de uma criação de conta em um banco, passando por 2 etapas, cadastro de formulário e depois um cadastro fácial. Ambos os tipos de dados são alocados em um banco de dados local no navegador do usuário (localStorage). </p>
 ## Screenshots
 <img src = "./img/print1.png">
 <img src = "./img/print2.png">
