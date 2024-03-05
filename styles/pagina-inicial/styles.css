@@ -1,0 +1,231 @@
+.banner {
+    background-image: url("../../img/banner-cliente.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__titulo,
+.conta__titulo {
+    font-weight: 600;
+    color: var(--branco);
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.banner__titulo {
+    width: 32%;
+    margin: 0 3em
+}
+
+.servicos__titulo,
+.beneficios__titulo {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.lista-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4em 0;
+}
+
+.item-servicos__titulo {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: .5em 0;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.item-servicos__imagem {
+    display: block;
+}
+
+.conta {
+    background-image: url("../../img/banner-gato.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.conta__container {
+    width: 80%;
+    margin-left: 4em;
+}
+
+.conta__botao {
+    display: block;
+    margin-top: .5em;
+    width: 50%;
+    text-align: center;
+    background: var(--preto);
+    border-radius: 20px;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0.5em;
+}
+
+.beneficios-lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4em;
+    text-align: center;
+}
+
+.beneficios-lista__item {
+    width: 20%;
+}
+
+.beneficios__icone {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.icone-presente {
+    background-image: url('../../img/Presente.png');
+}
+
+.icone-saque {
+    background-image: url('../../img/Saque.png');
+}
+
+.icone-estrela {
+    background-image: url('../../img/Estrela.png')
+}
+
+.icone-gato {
+    background-image: url('../../img/Gato.png')
+}
+
+.beneficios-lista__titulo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--azul-claro);
+    margin: .5em 0;
+}
+
+@media screen and (max-width: 820px) {
+    .banner {
+        height: 30vh;
+    }
+
+    .banner__titulo {
+        font-size: 30px;
+        width: 90%;
+        margin: 0 2em
+    }
+
+    .item-servicos {
+        padding: 1em;
+    }
+
+    .item-servicos__imagem {
+        height: 25vh;
+    }
+
+    .item-servicos__titulo {
+        font-size: 20px;
+    }
+
+    .beneficios-lista {
+        display: block;
+        margin: 1em;
+    }
+
+    .beneficios-lista__item {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .conta {
+        display: block;
+        height: 50vh;
+        padding: 1em;
+
+    }
+
+    .conta__titulo {
+        padding: 2em 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .beneficios__titulo{
+        font-size: 22px;
+    }
+
+    .beneficios-lista__item {
+        display: block;
+        align-items: center;
+    }
+
+    .beneficios-lista {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 2em;
+        text-align: center;
+    }
+
+    .conta {
+        display: block;
+        height: 50vh;
+        padding: 1em;
+
+    }
+
+    .conta__titulo {
+        padding: 2em 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .banner {
+        height: 20vh;
+    }
+
+    .banner__titulo {
+        font-size: 20px;
+        width: 80%;
+        margin: 0 2em
+    }
+
+    .item-servicos__imagem {
+        height: 21.5vh;
+    }
+    
+    .conta {
+        padding: 1em 5em 1em 0em ;
+    }
+    .conta__botao {
+        margin-bottom: 2em;
+    }
+    .conta__titulo {
+        padding: 2em 0;
+        font-size: 20px;
+    }
+} 
